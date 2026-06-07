@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla con CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabla de Ejemplo</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Juego</th>
+                <th>Calificacion</th>
+                <th>Consola</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mario Galaxy</td>
+                <td>9.5/10</td>
+                <td>Nintendo WII</td>
+            </tr>
+            <tr>
+                <td>TLOZ Twiligth Princess</td>
+                <td>9/10</td>
+                <td>WII o Gamecube</td>
+            </tr>
+            <tr>
+                <td>Pokemon Negro</td>
+                <td>9.8/10</td>
+                <td>DS</td>
+            </tr>
+            <tr>
+                <td>Viva Piñata</td>
+                <td>10/10</td>
+                <td>XBOX 360</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Consola</th>
+                <th>Precio</th>
+                <th>Calificacion</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>DSI</td>
+                <td>$1400</td>
+                <td>9.6/10</td>
+            </tr>
+            <tr>
+                <td>PSP</td>
+                <td>$1500</td>
+                <td>9/10</td>
+            </tr>
+            <tr>
+                <td>Gamecube</td>
+                <td>$1100</td>
+                <td>8.9/10</td>
+            </tr>
+            <tr>
+                <td>XBOX 360</td>
+                <td>$1600</td>
+                <td>9.5/10</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
