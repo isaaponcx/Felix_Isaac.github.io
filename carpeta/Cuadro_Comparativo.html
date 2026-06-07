@@ -1,33 +1,48 @@
 <!DOCTYPE html>
- <html>
-  <head>
-   <title>tablaa</title>
- </head>
- <body>
-   <table>
-    <tr>
-     <th>tienda</th>
-    </tr>
-    <tr>
-     <td>galletas</td>
-     <td>$22</td>
-    </tr>
-    <tr>
-     <td>PSP</td>
-     <td>$1500</td>
-    </tr>
-    <tr>
-     <td>Balon basket</td>
-     <td>$400</td>
-    </tr>
-    <tr>
-     <td>memelos</td>
-     <td>$17</td>
-    </tr>
-    <tr>
-     <td>Total</td>
-     <td>$1939</td>
-    </tr>
-   </table>
- </body>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cuadro comparativo HTML y HTML5</title>
+</head>
+<body>
+  <h1>Cuadro comparativo HTML y HTML5</h1>
+
+  <table style=border:solid black>
+    <thead>
+      <tr>
+        <th style=border:solid black>Característica</th>
+        <th style=border:solid black>HTML</th>
+        <th style=border:solid black>HTML5</th>
+      </tr>
+    </thead>
+    <tbody style=border:solid black>
+      <tr>
+        <td style=border:solid black>Doctype</td>
+        <td style=border:solid black>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd"&gt;</td>
+        <td style=border:solid black>&lt;!DOCTYPE html&gt;</td>
+      </tr>
+      <tr>
+        <td style=border:solid black>Estructura semántica</td>
+        <td style=border:solid black>Uso de divs y etiquetas básicas; pocas etiquetas semánticas propias.</td>
+        <td style=border:solid black>Nuevos elementos semánticos: header, nav, section, article, aside, footer, main, etc.</td>
+      </tr>
+      <tr>
+        <td style=border:solid black>Multimedia y gráficos nativos</td>
+        <td style=border:solid black>Sin soporte nativo para video/audio/Canvas; se usan plugins para multimedia.</td>
+        <td style=border:solid black>Soporte nativo para video, audio y canvas; gráficos con canvas; video/audio integrados.</td>
+      </tr>
+      <tr>
+        <td style=border:solid black>Formularios y validación</td>
+        <td style=border:solid black>Campos básicos; validación limitada; no hay nuevos tipos de input por estándar.</td>
+        <td style=border:solid black>Nuevos tipos de input (email, url, date, number, color, etc.), placeholders, required, pattern, autocomplete, etc.</td>
+      </tr>
+      <tr>
+        <td style=border:solid black>Compatibilidad y enfoque</td>
+        <td style=border:solid black>Uso de formatos y atributos heredados; compatibilidad con navegadores antiguos.</td>
+        <td>Mejor compatibilidad en navegadores modernos; enfoque en estructuras y APIs modernas para web apps.</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
 </html>
